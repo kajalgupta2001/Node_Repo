@@ -8,7 +8,6 @@ const bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 const PORT = process.env.PORT || 3000;
 
-let a = 10
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: false }));
 
